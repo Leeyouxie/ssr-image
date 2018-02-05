@@ -1,5 +1,5 @@
 # base image
-FROM dsdgroup/tensorflow:gpu-cuda-8.0
+FROM dsdgroup/tensorflow
 
 # maintainer information
 MAINTAINER liwubo@stu.scu.edu.cn
