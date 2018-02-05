@@ -5,7 +5,7 @@ FROM dsdgroup/tensorflow:gpu-cuda-8.0
 MAINTAINER liwubo@stu.scu.edu.cn
 
 # install something
-ADD requirements.txt requirements.txt \
+ADD requirements.txt requirements.txt
 RUN apt-get update -y && \
 	apt-get install -y python3-pip && \
 	pip3 install -U -r requirements.txt
