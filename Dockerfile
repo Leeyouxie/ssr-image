@@ -8,4 +8,4 @@ MAINTAINER liwubo@stu.scu.edu.cn
 ADD requirements.txt requirements.txt
 RUN apt-get update -y && \
 	apt-get install -y python3-pip && \
-	sudp pip3 install -U -r requirements.txt
+	sudo pip3 install -U -r requirements.txt
