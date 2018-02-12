@@ -1,5 +1,5 @@
 # base image
-FROM dsdgroup/tensorflow:cpu
+FROM dsdgroup/tensorflow:latest
 
 # maintainer information
 MAINTAINER liwubo@stu.scu.edu.cn
