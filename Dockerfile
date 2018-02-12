@@ -1,5 +1,5 @@
 # base image
-FROM dsdgroup/tensorflow:latest
+FROM minjoon/tf4
 
 # maintainer information
 MAINTAINER liwubo@stu.scu.edu.cn
